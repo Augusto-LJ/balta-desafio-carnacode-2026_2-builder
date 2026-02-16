@@ -92,7 +92,7 @@ public class SalesReport
         Console.WriteLine($"Marca d'água: {WaterMark}");
 
         if (IncludeFooter)
-            Console.WriteLine($"Rodapé: {FooterText}");
+            Console.WriteLine($"Conteúdo do rodapé: {FooterText}");
 
         Console.WriteLine("Relatório gerado com sucesso!");
     }
